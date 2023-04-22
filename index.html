@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Design</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlits.css">
+    <script src="https://kit.fontawesome.com/f1487e5825.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!----header section start------>
+
+    <header>
+        <div id="header">
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+            <div class="logo uppercase f-w-700 letter-spacing2"><span>Aishwarya</span> S</div>
+            <div class="nav-links">
+                <ul class="flex f-w-600">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+            <button class="btn">Hire Me</button>
+        </div>
+        <!---content-->
+        <div class="content flex align-center">
+            <!---------left section---->
+            <div class="left flex2">
+                 <h4 class="uppercase letter-spacing2">I'm <span>Aishwarya S</span></h4>
+                 <h2 class="my-t-10 uppercase letter-spacing2">Student</h2>
+                 <p class="my-t-10">I am currently Studying BE in CSE at JNNCE,Shimoga.</p>
+            </div>
+            <!------right-section-->
+            <div class="right flex3">
+              <img src="assets/profilepic.png" alt="profilepic png">
+            </div>
+        </div>
+        </div>
+    </header>
+   <!--about section start-->
+   <div id="about">
+<section class ="about-me-sec">
+<div class="about-sec layout">
+    <h2 class="uppercase pd-t-30 text-center">About Me</h3>
+    <hr class="w55 my-t-10">
+    <div class="about-content flex justify-center align-center">
+        <!--left side-->
+        <div class="left flex2">
+            <h3 class="uppercase letter-spacing2"><span>Student</span></h3>
+            <p class="my-t-10"> I am Aishwarya S,currently persuing my 3rd year BE in Computer Science Engineering at JNNCE,Shimoga.</p>
+              <p class="my-t-10"> My strengths are i have a leadership quality as i am curently the Class representative and i am honest and decicated person.</p>
+             <p class="my-t-10"> Coming to my  education part,in Engineering i have 9.21 CGPA.</p>
+                
+
+                 </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                    
+                 </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>SQL</span><br>Database</li>
+                <li><span>Web develeopment</span><br>Web app development</li>
+                
+
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+                <li><span>Schooling </span><br>National Public School,Shimoga.</li>
+                <li><span>PU</span><br>Malnad PU college,Shimoga.</li>
+                <li><span>Bachelor of Engineering</span><br>Jawaharlal Nehru New College of Engineering,Shimoga.</li>
+                
+
+            </ul>
+           </div>
+           <div class="tab-contents" id="Hobbies">
+            <ul>
+                <li><span>Books </span><br>I love reading kannada and english novels,fiction stories.</li>
+                <li><span>Movies</span><br>Watching movies and series</li>
+                <li><span>Sports</span><br>I like playing badminton and throwball. </li>
+                
+
+            </ul>
+           </div>
+           
+            
+        </div>
+        <!--right side-->
+        <div class="right flex3">
+            <img src="assets/profilepic.png" alt="">
+        </div>
+    </div>
+</div>
+
+</section>
+<!-----------project---------->
+<div id="project">
+    <div class="container">
+        <h2 class="uppercase pd-t-30 text-center">Project</h3>
+        <div class="project-list">
+<div class="project">
+    <img src="assets/project1.jpeg">
+    <div class="layer">
+        <h3>DBMS mini-project</h3>
+        <p>The school database management system maintains the data of the School students and teachers work progress which is easily available in the smartphone when required.  </p>
+        <a href="a"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+    </div>
+    
+</div>
+<div class="project">
+    <img src="assets/project2.png">
+    <div class="layer">
+    <h3>Socail Media App</h3>
+    <p> The app connects you to the talented people around the world.
+        Download it from play store.
+    </p>
+    <a href="a"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+<div class="project">
+    <img src="assets/project3.png">
+    <div class="layer">
+    <h3>Music App</h3>
+    <p> The app plays the music of the type.
+        Dowload it from play store.
+    </p>
+    <a href="a"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+    </div> 
+</div>
+        </div>
+
+        <a href="a" class="btn"> See more</a>
+    </div>
+
+
+</div>
+
+
+<!------conatact-->
+<div id="contact">
+    <div class="conatiner">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="uppercase pd-t-30 text-center">contact</h3>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 1234567891</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+}
+</script>
+</body>
+</html>
